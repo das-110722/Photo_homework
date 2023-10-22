@@ -1,0 +1,36 @@
+
+/* Ipad Pro */
+@media (max-width: 1365px) {
+    .header__title {
+        top: 14%;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .header__title {
+        top: 14%;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 739px) {
+    .navbar {
+        display: flex;
+    }
+    .navbar__content {
+        font-size: 10px;
+    }
+    .header__title {
+        top: 10%;
+    }
+    .header__title-main {
+        font-size: 15px;
+        margin: 0;
+    }
+    .header__title-second {
+        font-size: 10px;
+        margin: 0;
+    }
+}
